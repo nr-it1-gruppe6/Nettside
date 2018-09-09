@@ -1,0 +1,11 @@
+.info{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    background-color: rgb(160, 170, 180);
+    width: 50%;
+    left: 25%;
+    position: absolute;
+    font-family: Arial sans-serif;
+    border: solid 3px;
+}
