@@ -3,6 +3,9 @@ body {
     text-align: left;
     margin-left: 5%;
 }
+ul, ol{
+    margin-left: -2%;
+}
 p {
     font-size: 18px;
     font-family: "Apple SD Gothic Neo", sans-serif;
@@ -10,27 +13,29 @@ p {
 
 #heading{
     font-family: "Apple SD Gothic Neo", sans-serif;
-    margin-left: 2%;
+
 }
 
 #video{
     width: 500px;
     border: 2px solid white;
-    margin-left: 2%;
+
 }
 #disclaimer{
     font-size: 12px;
-    margin-left: 2%;
+
 }
 
 table{
     border-collapse: collapse;
 }
 table, td, th{
-    margin-left: 2%;
     border: 1px solid black;
     padding: 5px;
 }
 th{
     background-color: #888888;
+}
+img{
+    border: 2px solid black;
 }
