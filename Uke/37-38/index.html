@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <!-- UTF-8 gjør det mulig å bruke æ, ø og å
+    Tittel på nettsiden har blitt satt til "Gruppe 6: Hvordan pubisere nettside med GitHub"-->
+    <meta charset="UTF-8">
+    <title>Gruppe 6: Hvordan pubisere nettside med GitHub</title>
+    <!-- Litt basic CSS bare for å pynte litt.
+    Nettsiden har en lys gråfarge, med teksten plassert i midten,
+    og all tekst i <p> taggen har skriftstørrelse 18 pixler.-->
+    <style>
+        body{
+            background-color: #CCCCCC;
+            text-align: center;
+        }
+        p{
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hovedtittel
+     <h1> er den største overskrifen-->
+    <h1>Hvordan publisere en nettside ved bruk av GitHub?</h1>
+    <!-- Innhold til nettsiden:
+    <p> er laget for avsnitt.
+    <em>taggen gjør teksten inne i taggen kursiv.
+    <a> taggen gjør at du kan klikke på skiften i <a> taggen for å komme til en annen nettside, target=_blank, gjør slik at det åpnes ny fane, og href er linken til stedet man skal bli redirectet til..
+    <img> taggen setter opp et bilde, scr er der bildet befinner seg, width bestemmer bredden til bildet og alt er det som kommer opp om bildet ikke laster inn på nettsiden.
+    <br> taggen gjør at det blir ny linje etter taggen. -->
+    <p>
+        For å kunne lage din egen nettside på github, må du ha din egen bruker. Om du ikke har din egen bruker kan du klikke <a href="githubaccount.html" target="_blank">her</a>
+        for å se hvordan du kan lage en bruker.
+    </p>
+    <!-- Undetittel
+    <h3> er en middels stor overskrift-->
+    <h3>1. Sett opp ditt eget oppbevaringssted</h3>
+    <p>
+        Når du har logget inn på din GitHub-bruker, må du lage et nytt oppbevaringssted for å kunne publisere din nettside. <br>
+        For å gjøre dette, må du være innelogget på din GitHub bruker, også trykke på <em>New repository</em>. <br>
+        <br>
+        <img src="Bilder/nummer4.png" width="1000" alt="Hvordan lage repository"><br>
+        <br>
+        Så må du velge hva ditt oppbevaringssted skal hete. Vi har valgt tutorial, bare for å velge et navn. <br>
+        Du kan også velge å legge til en beskrivelse, og velge om det skal være offentlig eller privat. <br>
+        Husk også å huk av for <em>Initialize this repositry with README</em>. <br>
+        Så kan du trykke på <em>Create repository</em> for å komme videre. <br>
+        <br>
+        <img src="Bilder/nummer5.png" width="1000" alt="Instillinger for oppbevaringssted.">
+    </p>
+    <!-- Undertittel nummer 2.-->
+    <h3>2. Sett opp og velg default branch</h3>
+    <p>
+        For å kunne publisere nettsider via GitHub, må man sette opp en branch i oppbevaringsstedet. <br>
+        Dette gjøres ved å trykke på <em>Brach: master</em>, og deretter skrive inn og velge branch ved navn <em>gh-pages</em>. <br>
+        <br>
+        <img src="Bilder/nummer6.png" width="1000" alt="Hvordan sette opp en branch"> <br>
+        <br>
+        Når dette er gjort, må man velge denne som default branch, som gjøres ved å trykke på <em>Settings</em>, så på <em>Branches</em>, også velge default branch til å være <em>gh-pages</em>. <br>
+        <br>
+        <img src="Bilder/nummer7.png" width="1000" alt="Hvordan velge default branch">
+    </p>
+    <!-- Undertittel nummer 3.-->
+    <h3>3. Laste opp HTML filen</h3>
+    <p>
+        For å laste opp din html-fil, må du trykke på <em>Upload files</em>, deretter legge inn din fil, også trykke på <em>Commit changes</em>. <br>
+        <strong>HUSK</strong> å gi din html-fil navnet <em>index.html</em>.<br>
+        <br>
+        <img src="Bilder/nummer8.png" width="1000" alt="Hvordan laste opp nettsiden">
+    </p>
+    <!-- Undertittel nummer 4.-->
+    <h3>4. Finn linken til nettsiden din</h3>
+    <p>
+        For å finne linken til din nettside, trykk på <em>Settings</em>, så på <em>Options</em>, også bla ned til <em>GitHub Pages</em>. <br>
+        Her vil linken til din nettside ligge. <br>
+        <br>
+        <img src="Bilder/nummer9.png" width="1000" alt="Hvordan finne link til nettside">
+        <br>
+    </p>
+
+</body>
+</html>
