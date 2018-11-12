@@ -1,11 +1,11 @@
 .info{
     text-align: center;
-    margin-top: 60px;
+    margin: 60px 0;
     font-size: 20px;
     background-color: rgba(0, 0, 0, 0.4);
     width: 50%;
     left: 25%;
-	  position: relative;
+    position: relative;
     font-family: Arial sans-serif;
     border: solid 3px;
     border-radius: 10px;

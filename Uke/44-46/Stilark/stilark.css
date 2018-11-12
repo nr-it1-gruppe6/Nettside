@@ -1,0 +1,57 @@
+.innpakning{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  width: auto;
+  background-color: #c2c3c4;
+
+}
+.boks{
+  background-color: #8e9396;
+  flex-basis: 100%;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+.tittel{
+text-align: center;
+order: 1;
+}
+
+.meny{
+  order: 2;
+}
+
+.dalane{
+order: 3;
+text-align: center;
+height: 800px;
+}
+
+.dalane h2{
+font-weight: bold;
+text-decoration: underline;
+}
+
+.dalane h3, .dalane p{
+  text-align: left;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.dalane-kart{
+  width: 800px;
+  position: absolute;
+  left: 45%;
+  top: 12%;
+  border-radius: 3px;
+}
+.dalane-beliggenhet{
+  position: relative;
+  top: 15%;
+}
+
+.sauda{
+order: 4;
+}
