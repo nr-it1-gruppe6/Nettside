@@ -2,56 +2,64 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  background-color: #c2c3c4;
   margin: auto;
   width: auto;
-  background-color: #c2c3c4;
+  padding: 2px;
+  border-radius: 5px;
+  font-family: "Source Sans Pro", sans-serif;
 
 }
 .boks{
   background-color: #8e9396;
-  flex-basis: 100%;
   padding: 5px;
   margin: 10px;
   border-radius: 5px;
-  position: relative;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
 }
+
 .tittel{
 text-align: center;
+flex-basis: 100%;
 order: 1;
 }
 
 .meny{
   order: 2;
+  flex-basis: 200px;
 }
 
-.dalane{
+.meny ul{
+  padding: 0;
+  margin: 10px;
+}
+
+.meny li{
+  display: block;
+}
+
+.meny ul a{
+  background-color: #c2c3c4;
+  display: block;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.meny a:hover, .meny .active{
+background-color: #757575;
+}
+
+.content{
 order: 3;
-text-align: center;
-height: 800px;
 }
 
-.dalane h2{
-font-weight: bold;
-text-decoration: underline;
-}
-
-.dalane h3, .dalane p{
-  text-align: left;
-  font-size: 20px;
-  margin-left: 30px;
-}
-.dalane-kart{
-  width: 800px;
-  position: absolute;
-  left: 45%;
-  top: 12%;
-  border-radius: 3px;
-}
-.dalane-beliggenhet{
-  position: relative;
-  top: 15%;
-}
-
-.sauda{
-order: 4;
+footer{
+  order: 4;
+  flex-basis: 100%;
+  text-align: center;
 }
