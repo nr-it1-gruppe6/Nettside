@@ -2,19 +2,31 @@
   order: 4;
   flex-basis: 550px;
   text-align: center;
+  font-size: 18px;
 }
 
-.sauda-map{
+.sauda-map, .birkeland-sauda-map, .suldal-map{
   position: relative;
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
   margin: auto 12px;
 }
 
-.content{
+.generelt{
+  order: 3;
   text-align: left;
   height: 500px;
   flex: 1;
+  text-align: center;
+  height: auto;
+  font-size: 18px;
+}
+
+.generelt ul{
+  list-style: none;
+}
+.generelt img{
+  width: 350px;
 }
 
 footer{

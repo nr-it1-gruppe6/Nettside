@@ -3,6 +3,7 @@
 }
 
 .content{
+  order: 3;
   text-align: center;
   height: 500px;
   flex: 1;

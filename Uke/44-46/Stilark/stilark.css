@@ -19,9 +19,9 @@
 }
 
 .tittel{
-text-align: center;
-flex-basis: 100%;
-order: 1;
+  text-align: center;
+  flex-basis: 100%;
+  order: 1;
 }
 
 .meny{
@@ -52,10 +52,6 @@ order: 1;
 
 .meny a:hover, .meny .active{
 background-color: #757575;
-}
-
-.content{
-order: 3;
 }
 
 footer{
