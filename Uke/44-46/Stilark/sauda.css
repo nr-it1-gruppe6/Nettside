@@ -12,7 +12,11 @@
 }
 
 .content{
-  text-align: center;
+  text-align: left;
   height: 500px;
   flex: 1;
+}
+
+footer{
+  order: 4;
 }

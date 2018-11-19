@@ -14,3 +14,7 @@
   margin: 25px;
   border-radius: 5px;
 }
+
+footer{
+  order: 4;
+}
