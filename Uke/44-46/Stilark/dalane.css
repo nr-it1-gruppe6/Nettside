@@ -13,33 +13,24 @@
 
 .generelt{
   order: 3;
-  flex-basis: 84%;
-  margin-left: 25px;
-  height: 480px;
+  flex-direction: column;
+  height: 500px;
+  flex: 1;
 }
 .generelt p{
   font-size: 18px;
-  position: relative;
-  left: 50px;
-  top: 150px;
+  text-align: center;
 }
 .generelt img{
   border-radius: 5px;
-  position: relative;
-  left: 50%;
-  width: 650px;
-  top: -60px;
-}
-.bilde-tekst{
-  text-align: center;
-  margin-top: -200px;
-  margin-left: 550px;
+  display: block;
+  margin: 0 auto;
 }
 
 .utdannigsprogram{
   order: 4;
   height: auto;
-  padding: 0 80px;
+  padding: 0 120px;
 }
 .utdannigsprogram ul, .programfag ul{
   list-style: none;
@@ -49,7 +40,7 @@
 .programfag{
   order: 5;
   height: auto;
-  padding: 0 80px;
+  padding: 0 200px;
 }
 .innhold{
   text-align: center;
