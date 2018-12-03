@@ -5,14 +5,22 @@
 .content{
   order: 3;
   text-align: center;
-  height: 500px;
+  height: auto;
+  flex: 1;
+  padding: 25px 0;
+}
+
+.row{
+  order: 2;
+  display: flex;
+  flex-direction: row;
   flex: 1;
 }
 
 .dalane, .sauda{
-  height: 300px;
-  position: relative;
-  margin: 25px;
+  display: inline-block;
+  padding: 30px;
+  margin: 0 auto;
   border-radius: 5px;
 }
 

@@ -1,20 +1,34 @@
+.row-1, .row-2{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-basis: 100%;
+}
+
+.row-1{
+  order: 2;
+}
+.row-2{
+  order: 5;
+}
+
 .map{
   order: 6;
   text-align: center;
-  height: 600px;
+  height: 650px;;
   flex: 1;
 }
 
 .dalane-map{
-  width: 500px;
-  height: 400px;
-  margin: auto 12px;
+  width: 70%;
+  height: 70%;
+  margin: auto 20px;
 }
 
 .generelt{
   order: 3;
   flex-direction: column;
-  height: 500px;
+  height: auto;
   flex: 1;
 }
 .generelt p{
@@ -25,12 +39,14 @@
   border-radius: 5px;
   display: block;
   margin: 0 auto;
+  width: 70%;
 }
 
 .utdannigsprogram{
   order: 4;
   height: auto;
-  padding: 0 120px;
+  width: 30%;
+  padding: 0 30px;
 }
 .utdannigsprogram ul, .programfag ul{
   list-style: none;
@@ -40,12 +56,35 @@
 .programfag{
   order: 5;
   height: auto;
-  padding: 0 200px;
+  width: 30%;
+  padding: 0 30px;
+
 }
 .innhold{
   text-align: center;
   font-size: 18px;
 }
+
 footer{
   order: 7;
+}
+p a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+p a:hover{
+  color: #454545;
+  text-decoration: underline;
+}
+.programfag table{
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.programfag th, .programfag td{
+  padding: 2px 15px;
+  border: 2px solid black;
+}
+.programfag th{
+  background-color: rgba(0, 0, 0, 0.15);
 }

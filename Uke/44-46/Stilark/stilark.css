@@ -8,6 +8,7 @@
   padding: 2px;
   border-radius: 5px;
   font-family: "Source Sans Pro", sans-serif;
+  min-width: 960px;
 
 }
 .boks{
@@ -22,11 +23,13 @@
   text-align: center;
   flex-basis: 100%;
   order: 1;
+  width: auto;
 }
 
 .meny{
   order: 2;
   flex-basis: 12%;
+  min-width: 200px;
 }
 
 .meny ul{
