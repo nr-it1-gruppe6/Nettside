@@ -8,8 +8,7 @@
   padding: 2px;
   border-radius: 5px;
   font-family: "Source Sans Pro", sans-serif;
-  min-width: 960px;
-
+  min-width: 1000px;
 }
 .boks{
   background-color: #8e9396;
@@ -18,29 +17,23 @@
   border-radius: 5px;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
 }
-
 .tittel{
   text-align: center;
   flex-basis: 100%;
   order: 1;
   width: auto;
 }
-
 .meny{
   order: 2;
-  flex-basis: 12%;
   min-width: 200px;
 }
-
 .meny ul{
   padding: 0;
   margin: 10px;
 }
-
 .meny li{
   display: block;
 }
-
 .meny ul a{
   background-color: #c2c3c4;
   display: block;
@@ -52,11 +45,9 @@
   text-align: center;
   color: black;
 }
-
 .meny a:hover, .meny .active{
 background-color: #757575;
 }
-
 footer{
   flex-basis: 100%;
   text-align: center;

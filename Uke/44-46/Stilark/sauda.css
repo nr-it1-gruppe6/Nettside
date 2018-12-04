@@ -1,25 +1,10 @@
-.map{
-  order: 4;
-  flex-basis: 100%;
-  text-align: center;
-  font-size: 18px;
-  height: auto;
-}
-
-.maps{
+.row-1{
+  order: 2;
   display: flex;
   flex-direction: row;
+  flex: 1;
+  flex-basis: 100%;
 }
-
-.sauda-map, .birkeland-sauda-map, .suldal-map{
-  padding: 20px;
-  margin: 0 auto;
-}
-
-iframe{
-  max-width: 100%;
-}
-
 .generelt{
   order: 3;
   text-align: left;
@@ -29,26 +14,12 @@ iframe{
   height: auto;
   font-size: 18px;
 }
-
 .generelt ul{
   list-style: none;
 }
 .generelt img{
   width: 100%;
 }
-
-footer{
-  order: 4;
-}
-
-.row-1{
-  order: 2;
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  flex-basis: 100%;
-}
-
 p a{
   text-decoration: none;
   color: black;
@@ -61,4 +32,25 @@ p a:hover{
 td{
   padding: 20px;
   vertical-align: top;
+}
+.map{
+  order: 4;
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 18px;
+  height: auto;
+}
+.maps{
+  display: flex;
+  flex-direction: row;
+}
+.sauda-map, .birkeland-sauda-map, .suldal-map{
+  padding: 20px;
+  margin: 0 auto;
+}
+iframe{
+  max-width: 100%;
+}
+footer{
+  order: 4;
 }

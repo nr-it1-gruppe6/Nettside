@@ -4,27 +4,12 @@
   flex: 1;
   flex-basis: 100%;
 }
-
 .row-1{
   order: 2;
 }
 .row-2{
   order: 5;
 }
-
-.map{
-  order: 6;
-  text-align: center;
-  height: 650px;;
-  flex: 1;
-}
-
-.dalane-map{
-  width: 70%;
-  height: 70%;
-  margin: auto 20px;
-}
-
 .generelt{
   order: 3;
   flex-direction: column;
@@ -41,7 +26,6 @@
   margin: 0 auto;
   width: 70%;
 }
-
 .utdannigsprogram{
   order: 4;
   height: auto;
@@ -52,30 +36,11 @@
   list-style: none;
   padding: 0;
 }
-
 .programfag{
   order: 5;
   height: auto;
   width: 30%;
   padding: 0 30px;
-
-}
-.innhold{
-  text-align: center;
-  font-size: 18px;
-}
-
-footer{
-  order: 7;
-}
-p a{
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-p a:hover{
-  color: #454545;
-  text-decoration: underline;
 }
 .programfag table{
   margin: 0 auto;
@@ -87,4 +52,31 @@ p a:hover{
 }
 .programfag th{
   background-color: rgba(0, 0, 0, 0.15);
+}
+.innhold{
+  text-align: center;
+  font-size: 18px;
+}
+p a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+p a:hover{
+  color: #454545;
+  text-decoration: underline;
+}
+.map{
+  order: 6;
+  text-align: center;
+  height: 650px;;
+  flex: 1;
+}
+.dalane-map{
+  width: 70%;
+  height: 70%;
+  margin: auto 20px;
+}
+footer{
+  order: 7;
 }

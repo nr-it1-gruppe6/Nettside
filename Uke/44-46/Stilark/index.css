@@ -1,7 +1,12 @@
+.row{
+  order: 2;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
 .content p{
   font-size: 20px;
 }
-
 .content{
   order: 3;
   text-align: center;
@@ -9,21 +14,12 @@
   flex: 1;
   padding: 25px 0;
 }
-
-.row{
-  order: 2;
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-}
-
 .dalane, .sauda{
   display: inline-block;
   padding: 30px;
   margin: 0 auto;
   border-radius: 5px;
 }
-
 footer{
   order: 4;
 }
