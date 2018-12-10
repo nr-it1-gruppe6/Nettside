@@ -1,25 +1,25 @@
 .row{
-  order: 2;
-  display: flex;
-  flex-direction: row;
-  flex: 1;
+  order: 2; /* Blir plassert som nummer 2 på nettsiden */
+  display: flex; /* Bruker flexbox for å lett plassere innholdet inne i diven*/
+  flex-direction: row; /* Innholdet i diven plasseres på en rad*/
+  flex-basis: 100%; /* Bruker all plass på raden*/
 }
 .content p{
-  font-size: 20px;
+  font-size: 20px; /* Skriftstørrelse 20px på all skrift i p taggen inni divclass content*/
 }
 .content{
-  order: 3;
-  text-align: center;
-  height: auto;
-  flex: 1;
-  padding: 25px 0;
+  order: 3; /* Blir plassert som nummer 3 på nettsiden */
+  text-align: center; /* Teksten plaseres i sentrum */
+  height: auto; /* Høyden på boksen tilpasses automatisk */
+  flex: 1; /* Bruker gjenstående plass i flexbox*/
+  padding: 25px 0; /* Padding på 25px topp og bunn, og 0 på høyre og venstre */
 }
 .dalane, .sauda{
-  display: inline-block;
-  padding: 30px;
-  margin: 0 auto;
-  border-radius: 5px;
+  display: inline-block; /* Plasserer bildene ved siden av hverandre så lenge som siden er bred nok. */
+  padding: 30px; /* Padding på 30px alle sider */
+  margin: 0 auto; /* Margin på 0 topp og bunn, og auto gjør at innholdet blir plassert i midten av høyre og venstre (horisontalt) */
+  border-radius: 5px; /* Avrunnede kanter på bildene*/
 }
 footer{
-  order: 4;
+  order: 4; /* Kommer som nummer 4 på nettsiden. */
 }

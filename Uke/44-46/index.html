@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <head>
+  <!-- tittel-->
   <title>Videregående skoler i Rogaland</title>
+  <!-- Setter charset til utf-8 -->
   <meta charset="utf-8">
+  <!-- Linker til css stilark fra mappen stilark -->
   <link rel="stylesheet" href="Stilark/stilark.css" type="text/css">
   <link rel="stylesheet" href="Stilark/index.css" type="text/css">
+  <!-- Henter font Source Sans Pro fra google -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 <body>
+  <!-- Divclass innpakning rommet hele inholdet på nettsiden-->
   <div class="innpakning">
+    <!-- Overskrift-->
     <div class="tittel boks">
       <h1>Videregående skoler i Rogaland</h1>
     </div>
-
+    <!-- Meny og content plassert i en divclasse row, for å passe på plassering av divs når nettsiden reskaleres-->
     <div class="row">
+    <!-- Meny, linken med class "active" er linken til nettsiden man er inne på, og vises i en annen farge.-->
     <div class="meny boks">
       <ul>
         <li><a href="index.html" class="active">Hjem</a></li>
@@ -21,6 +28,7 @@
       </ul>
     </div>
 
+    <!-- Selve innholdet på nettsiden ligger i divclassen content-->
     <div class="content boks">
       <p>I Rogaland finnes det 25 offentlige videregående skoler spredt utover hele fylket.
       <br>
@@ -30,11 +38,13 @@
       <br>
       Til venstre ser du bilde av Dalane VGS, og til høyre ser du bilde av Sauda VGS.
       </p>
+      <!-- Bilder hentet fra mappeen Bilder-->
       <img src="Bilder/dalane.jpg" alt="Bilde av Dalane VGS" class="dalane">
       <img src="Bilder/sauda.jpg" alt="Bilde av Sauda VGS" class="sauda">
     </div>
     </div>
 
+    <!-- Underskrift til nettsiden-->
     <footer class="boks">
       <p>© 2018 Johnny Leo Nilsen & Tom Mantel</p>
     </footer>

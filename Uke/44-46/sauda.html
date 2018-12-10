@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <head>
+  <!-- tittel-->
   <title>Sauda VGS</title>
+  <!-- Setter charset til utf-8 -->
   <meta charset="utf-8">
+  <!-- Linker til css stilark fra mappen stilark -->
   <link rel="stylesheet" href="Stilark/stilark.css" type="text/css">
   <link rel="stylesheet" href="Stilark/sauda.css" type="text/css">
+  <!-- Henter font Source Sans Pro fra google -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 <body>
+  <!-- Divclass innpakning rommet hele inholdet på nettsiden-->
   <div class="innpakning">
+    <!-- Overskrift-->
   <div class="tittel boks">
     <h1>Sauda Videregående Skole</h1>
   </div>
-
-    <div class="row-1">
+  <!-- Meny og content plassert i en divclasse row, for å passe på plassering av divs når nettsiden reskaleres-->
+    <div class="row">
+      <!-- Meny, linken med class "active" er linken til nettsiden man er inne på, og vises i en annen farge.-->
     <div class="meny boks">
       <ul>
         <li><a href="index.html">Hjem</a></li>
@@ -21,6 +28,7 @@
       </ul>
     </div>
 
+    <!-- Inneholder generell info-->
     <div class="generelt boks">
        <p>
         Sauda Vidaregåande Skole er lokalisert i Ryfylke i Rogaland. Skolen er delt opp i tre avdelinger
@@ -32,6 +40,7 @@
         De ulike linjene som finnes ved Sauda Videregåande skole kan bli sett ved listen under:
         </br>
 
+        <!-- Plasserer info om skolene i tabell for å lett plassere dem riktig på nettsiden.-->
         <table>
           <tr>
             <td>
@@ -63,10 +72,12 @@
             </td>
           </tr>
         </table>
+        <!-- Linker til kilden-->
         <p>Informasjon er tatt ut fra skolens nettside: <a href="http://sauda.vgs.no/" target="_blank">www.sauda.vgs.no</a></p>
     </div>
     </div>
 
+    <!-- Info om beliggenhet-->
     <div class="map boks">
       <h3>Beliggenhet</h3>
       <p>
@@ -77,7 +88,9 @@
       Dei ulike plasseringane for dei ulike avdelingene til Sauda VGS:
       </p>
 
+      <!-- Putter alle kartene inni en div for å lett plassere dem på nettsiden.-->
       <div class="maps">
+        <!-- Bruker iframe for å vise interaktive kart over skolene.-->
         <div class="sauda-map">
           <p>Avdeling Sauda</p>
           <iframe width="500" height="400" src="https://maps.google.com/maps?q=Sauda%20Videreg%C3%A5ande%20skule%20Griegs%20gate&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
@@ -93,14 +106,14 @@
           <iframe width="500" height="400" src="https://maps.google.com/maps?q=Sauda%20vidareg%C3%A5ande%20skule%2C%20avdeling%20Sand%20Rygjatunvegen%2030%2C%204230%20Sand&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
         </div>
       </div>
-
+      <!-- Linker til kilden-->
       <p>Informasjon hentet fra <a href="https://www.google.com/maps" target="_blank">Google Maps</a></p>
     </div>
 
-
+  <!-- Underskrift til nettsiden-->
     <footer class="boks">
       <p>© 2018 Johnny Leo Nilsen & Tom Mantel</p>
     </footer>
-    
+
 </body>
 </html>

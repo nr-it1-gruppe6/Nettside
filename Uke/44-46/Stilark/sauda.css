@@ -1,56 +1,53 @@
-.row-1{
-  order: 2;
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  flex-basis: 100%;
+.row{
+  order: 2; /* Blir plassert som nummer 2 på nettsiden */
+  display: flex; /* Bruker flexbox for å lett plassere innholdet inne i diven*/
+  flex-direction: row; /* Innholdet i diven plasseres på en rad*/
+  flex-basis: 100%; /* Bruker all plass på raden*/
 }
 .generelt{
-  order: 3;
-  text-align: left;
-  height: 500px;
-  flex: 1;
-  text-align: center;
-  height: auto;
-  font-size: 18px;
+  order: 3; /* Blir plassert som nummer 3 på nettsiden */
+  flex: 1; /* Bruker gjenstående plass på raden*/
+  text-align: center; /* Plasserer teksten i midten */
+  height: auto; /* Høyden tilpasses automatisk */
+  font-size: 18px; /* Skriftstørrelse på 18px*/
 }
 .generelt ul{
-  list-style: none;
+  list-style: none; /* Ingen listpunkter */
 }
 .generelt img{
-  width: 100%;
+  width: 100%; /* Bildets bredde på 100% slik at det tar mindre plass om nettsiden reskaleres */
 }
 p a{
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+  text-decoration: none; /* Ingen tekstdekorasjon */
+  color: black; /* Svart tekst*/
+  font-weight: bold; /* Fet skrift*/
 }
 p a:hover{
-  color: #454545;
-  text-decoration: underline;
+  color: #454545; /* Når musepekeren er over linken skiftes fargen til en lysere grå*/
+  text-decoration: underline; /* Understrek når musepekeren er over linken*/
 }
 td{
-  padding: 20px;
-  vertical-align: top;
+  padding: 20px; /* Padding på 20px på alle sider */
+  vertical-align: top; /* Innholdet plasseres i punkt på top, slik at toppteksten blir plassert like høyt for alle skolene */
 }
 .map{
-  order: 4;
-  flex-basis: 100%;
-  text-align: center;
-  font-size: 18px;
-  height: auto;
+  order: 4; /* Plasseres som nummer 4 på nettsiden*/
+  flex-basis: 100%; /* Bruker all plass på raden */
+  text-align: center; /* Plasserer teksten i midten*/
+  font-size: 18px; /* Skriftstørrelse på 18px */
+  height: auto; /* Høyden tilpasses automatisk */
 }
 .maps{
-  display: flex;
-  flex-direction: row;
+  display: flex; /* Bruker flexbox for å lett plassere innholdet inne i diven*/
+  flex-direction: row; /* Innholdet i diven plasseres på en rad*/
 }
 .sauda-map, .birkeland-sauda-map, .suldal-map{
-  padding: 20px;
-  margin: 0 auto;
+  padding: 20px; /* Padding på 20px på alle sidene */
+  margin: 0 auto; /* Margin på 0 topp og bunn, auto for høyre og venstre for å plassere innholdet i midten av diven */
 }
 iframe{
-  max-width: 100%;
+  max-width: 100%; /* Maks bredde for kart på 100% slik at de tilpasses når nettsiden reskaleres */
 }
 footer{
-  order: 4;
+  order: 4; /* Kommer som nummer 4 på nettsiden*/
 }

@@ -1,82 +1,80 @@
 .row-1, .row-2{
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  flex-basis: 100%;
+  display: flex; /* Bruker flexbox for å lett plassere innholdet inne i diven*/
+  flex-direction: row; /* Innholdet i diven plasseres på en rad*/
+  flex-basis: 100%; /* Bruker all plass på raden*/
 }
 .row-1{
-  order: 2;
+  order: 2; /* Blir plassert som nummer 2 på nettsiden */
 }
 .row-2{
-  order: 5;
+  order: 5; /* Blir plassert som nummer 5 på nettsiden */
 }
 .generelt{
-  order: 3;
-  flex-direction: column;
-  height: auto;
-  flex: 1;
+  order: 3; /* Blir plassert som nummer 3 på nettsiden */
+  height: auto; /* Høyden på boksen tilpasses automatisk */
+  flex: 1; /* Bruker gjenstående plass på raden*/
 }
 .generelt p{
-  font-size: 18px;
-  text-align: center;
+  font-size: 18px; /* Skriftstørrelse 20px på all skrift i p taggen inni divclass generelt*/
+  text-align: center; /* Plasserer teksten i sentrum horisontalt */
 }
 .generelt img{
-  border-radius: 5px;
-  display: block;
-  margin: 0 auto;
-  width: 70%;
+  border-radius: 5px; /* Avrunnede kanter på bilder */
+  display: block; /* Vises som blokk, slik at det kan bli plassert i sentrum ved hjelp av margin under*/
+  margin: 0 auto; /* Plasserer bildet i sentrum*/
+  width: 70%; /* Bredde på 70%, slik at det bruker mindre plass på nettsiden hvis nettsiden reskaleres*/
 }
 .utdannigsprogram{
-  order: 4;
-  height: auto;
-  width: 30%;
-  padding: 0 30px;
+  order: 4; /* Plasseres som nummer 4 på nettsiden */
+  height: auto; /* Høyden tilpasses automatisk*/
+  width: 30%; /* Bredde på 30%*/
+  padding: 0 30px; /* 30px padding høyre og venstre side*/
 }
 .utdannigsprogram ul, .programfag ul{
-  list-style: none;
-  padding: 0;
+  list-style: none; /* Ingen listpunkter */
+  padding: 0; /* 0 padding */
 }
 .programfag{
-  order: 5;
-  height: auto;
-  width: 30%;
-  padding: 0 30px;
+  order: 5; /* Plasseres som nummer 5 på nettsiden*/
+  height: auto; /* Høyden tilpasses automatisk*/
+  width: 30%; /* Bredde på 30% */
+  padding: 0 30px; /* 30px padding høyre og venstre side*/
 }
 .programfag table{
-  margin: 0 auto;
-  border-collapse: collapse;
+  margin: 0 auto; /* Plasserer tabellen i midten av diven */
+  border-collapse: collapse; /* Kantene kollapser i hverandre, slik at det kun blir en kantlinje */
 }
 .programfag th, .programfag td{
-  padding: 2px 15px;
-  border: 2px solid black;
+  padding: 2px 15px; /* Padding på 2 px top og bottom, og 15px høyre og venstre */
+  border: 2px solid black; /* En svart kantlinje */
 }
 .programfag th{
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.15); /* Bakgrunnsfarge svart på overskrftene i tabellen med gjennomsiktighet på 0.15, slik at det blir litt gråere enn resten av tabellen*/
 }
 .innhold{
-  text-align: center;
-  font-size: 18px;
+  text-align: center; /* Plasserer teksten i midten*/
+  font-size: 18px; /* Skritstørresle på 18px */
 }
 p a{
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+  text-decoration: none; /* Ingen tekstdekorasjon (understrek)*/
+  color: black; /* Svart tekst */
+  font-weight: bold; /* Fet skrift*/
 }
 p a:hover{
-  color: #454545;
-  text-decoration: underline;
+  color: #454545; /* Når musepekeren er over linken skiftes fargen til en lysere grå*/
+  text-decoration: underline; /* Understrek når musepekeren er over linken*/
 }
 .map{
-  order: 6;
-  text-align: center;
-  height: 650px;;
-  flex: 1;
+  order: 6; /* Vises som nummer 6 på nettsiden*/
+  text-align: center; /* Teksten plasseres i midten*/
+  height: 650px; /* Høyde på 650 piksler*/
+  flex: 1; /* Bruker gjenstående plass på raden*/
 }
 .dalane-map{
-  width: 70%;
-  height: 70%;
-  margin: auto 20px;
+  width: 70%; /* Kartets bredde på 70% */
+  height: 70%; /* Kartets høyde på 70%*/
+  margin: auto 20px; /* Margin på 20px høyre og venstre*/
 }
 footer{
-  order: 7;
+  order: 7; /* Plasseres som nummer 7 på nettsiden*/
 }

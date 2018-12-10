@@ -1,54 +1,60 @@
+/*
+  Dette stilarket er "hovedstilarket" til alle nettsidene.
+*/
+
+/* Bruker flexbox for lett plassering av divs på nettsiden*/
 .innpakning{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  background-color: #c2c3c4;
-  margin: auto;
-  width: auto;
-  padding: 2px;
-  border-radius: 5px;
-  font-family: "Source Sans Pro", sans-serif;
-  min-width: 1000px;
+  display: flex; /* Flexbox */
+  flex-wrap: wrap; /* Bryter rader*/
+  flex-direction: row; /* Innholdet plaseres i rader*/
+  background-color: #c2c3c4; /* Gir en grålig bakgrunnsfarge */
+  margin: auto; /* Marginen tilpasser seg automatisk*/
+  width: auto; /* Bredden tilpasses automatisk*/
+  min-width: 1000px; /* Minimunsbredden er 1000 piksler*/
+  padding: 2px; /* En padding på 2 piksler*/
+  border-radius: 5px; /* Avrunner kantene litt */
+  font-family: "Source Sans Pro", sans-serif; /* Bruker fonten Source Sans Pro som er hentet fra Google */
+
 }
 .boks{
-  background-color: #8e9396;
-  padding: 5px;
-  margin: 10px;
-  border-radius: 5px;
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+  background-color: #8e9396; /* En litt mørkere gråfarge for innholdet i alle divs med klasse boks*/
+  padding: 5px; /* Padding på 5 piksler*/
+  margin: 10px; /* Margin på 10 piksler*/
+  border-radius: 5px; /* Litt avrunnede kanter*/
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.4); /* Gir boksene en skygge med RGBA, helt svart farge, men 0.4 i gennomsiktighet så den vil se grå ut*/
 }
 .tittel{
-  text-align: center;
-  flex-basis: 100%;
-  order: 1;
-  width: auto;
+  text-align: center; /* Plasserer teksten i sentrum */
+  flex-basis: 100%; /* Bruker hele bredden */
+  order: 1; /* Første innhold på nettsiden*/
+  width: auto; /* Bredden tilpasses automatisk */
 }
 .meny{
-  order: 2;
-  min-width: 200px;
+  order: 2; /* Kommer som nummer 2 på nettsiden*/
+  width: 200px; /* Bredde på 200 piksler*/
 }
 .meny ul{
-  padding: 0;
-  margin: 10px;
+  padding: 0; /* Padding på 0 for å sentrere menyen inne i diven*/
+  margin: 10px; /* Margin på 10px for at menyen ikke skal stå oppi hverandre.*/
 }
 .meny li{
-  display: block;
+  display: block; /* Innholdet i menyen vises som blokker*/
 }
 .meny ul a{
-  background-color: #c2c3c4;
-  display: block;
-  padding: 12px;
-  border-radius: 5px;
-  margin: 10px;
-  font-weight: bold;
-  text-decoration: none;
-  text-align: center;
-  color: black;
+  background-color: #c2c3c4; /* En grålig bakgrunnsfarge*/
+  display: block; /* Innholdet i menyen vises som blokker*/
+  padding: 12px; /* Padding på 12 piksler*/
+  border-radius: 5px; /* Avunnede kanter */
+  margin: 10px; /* Margin på 10 piksler*/
+  font-weight: bold; /* Fet skrift */
+  text-decoration: none; /* Ingen dekorasjon på fonten*/
+  text-align: center; /* Plasserer teksten i midten */
+  color: black; /* Svart tekstfarge*/
 }
 .meny a:hover, .meny .active{
-background-color: #757575;
+background-color: #757575; /* Bakgrunnsfarge på menyblokkene når man holder musepekeren over, og samtidig fargen til den aktive nettsiden*/
 }
 footer{
-  flex-basis: 100%;
-  text-align: center;
+  flex-basis: 100%; /* Bruker hele bredden*/
+  text-align: center; /* Plasserer teksten i sentrum*/
 }
